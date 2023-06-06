@@ -6,7 +6,6 @@ require('dotenv').config();
 const restaurantRoutes = require('./routes/restaurantRoutes');
 const userRoutes = require('./routes/userRoutes');
 const paymentRoutes = require('./routes/paymentRoutes');
-const http = require("http");
 
 const app = express();
 
